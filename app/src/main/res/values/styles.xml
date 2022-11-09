@@ -1,0 +1,8 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="RoundCheckBox" parent="Theme.MaterialComponents">
+        <item name="android:button">@drawable/ic_check_circle</item>
+    </style>
+
+</resources>

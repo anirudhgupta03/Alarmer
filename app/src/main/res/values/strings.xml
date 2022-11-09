@@ -1,0 +1,71 @@
+<resources>
+
+    <color name="white">#EEEEEE</color>
+    <string name="app_name">Alarmer</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="no_alarms_set">No Alarms Set</string>
+    <string name="alarm_title">Alarm Title</string>
+    <string name="alarm">Alarm</string>
+    <string name="snoozed_alarm">Snoozed Alarm</string>
+    <string name="settings">Settings</string>
+    <string name="alarm_for">Alarm for</string>
+    <string name="disabled">Disabled</string>
+    <string name="alarm_set_for">Alarm Set for</string>
+    <string name="alarm_deleted">Alarm Deleted</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="alarm_removed">Alarm Removed</string>
+
+    <string name="snoozing_till">Snoozing till</string>
+    <string name="missed_alarm">Missed Alarm</string>
+
+    <string name="do_nothing">Do nothing</string>
+    <string name="mute">Mute</string>
+    <string name="snooze">Snooze</string>
+
+    <string name="less_than_a_minute_from_now">less than a minute from now</string>
+    <string name="minutes_from_now">minutes from now</string>
+    <string name="hours_and">hours and</string>
+
+    <!-- Days - for selecting repeating alarm day-->
+    <string name="mon">M</string>
+    <string name="tue">T</string>
+    <string name="wed">W</string>
+    <string name="thu">T</string>
+    <string name="fri">F</string>
+    <string name="sat">S</string>
+    <string name="sun">S</string>
+
+    <!-- Settings preference start -->
+
+    <!-- Shown in settings - snooze timeout-->
+    <string name="snooze_summary">Select timeout for snooze</string>
+    <string name="snooze_title">Snooze Time</string>
+    <string-array name="snooze_length_entries">
+        <item>5 Minutes</item>
+
+    </string-array>
+    <string-array name="snooze_length_values" translatable="false">
+        <item>5</item>
+
+    </string-array>
+
+    <!-- Shown in settings - silence timeout-->
+    <string name="silence_summary">Silence alarm after (minutes)</string>
+    <string name="silence_title">Silence Timeout</string>
+    <string-array name="silence_timeout_entries">
+        <item>Never</item>
+        <item>5 Minutes</item>
+        <item>10 Minutes</item>
+        <item>15 Minutes</item>
+    </string-array>
+    <string-array name="silence_timeout_values" translatable="false">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <!-- Settings preference end -->
+
+</resources>
